@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Lavakoons & Peebles | Links Hub & Portfolio",
+        "description": "Explore 3D models, 3D prints, tufting, custom scripts, tools and daily workshop updates.",
+        "keywords": "3D printing, GitHub tools, makerworld, scripts, open source, Blender, Fusion 360, CAD, 3D models, STL files, 3D printing profiles, Patreon, TikTok, Instagram, YouTube, Pinterest, Discord, Telegram"
+    },
+    "profile": {
+        "name": "Lavakoons & Peebles",
+        "avatar": "img/avatar.png",
+        "bio": "Custom 3D Printing & Tufting Studio • Custom Tools & Commercial Production"
+    },
+    "categories": [
+        {
+            "categoryTitle": "💎 Commercial Licenses / Files / Tools",
+            "links": [
+                {
+                    "icon": "fab fa-patreon",
+                    "text": "Patreon",
+                    "description": "Exclusive commercial rights & early access",
+                    "link": "https://patreon.com/lavakoons_n_peebles",
+                    "tooltip": "Support & exclusives",
+                    "active": false
+                },
+                {
+                    "icon": "https://cdn-icons-png.flaticon.com/512/583/583279.png",
+                    "text": "MakerWorld",
+                    "description": "Download our 3D models and print profiles",
+                    "link": "https://makerworld.com/en/@LnP.team",
+                    "tooltip": "Print profiles & 3D models",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-github",
+                    "text": "Github",
+                    "description": "Our scripts and tools",
+                    "link": "https://github.com/Lavakoons-n-Peebles/",
+                    "tooltip": "Code & repositories",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "categoryTitle": "🎬 Process & Updates",
+            "links": [
+                {
+                    "icon": "fab fa-tiktok",
+                    "text": "TikTok",
+                    "description": "Last products, 3D printing process, timelapses",
+                    "link": "https://www.tiktok.com/@lavakoons_n_peebles",
+                    "tooltip": "Weekly short videos",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-instagram",
+                    "text": "Instagram",
+                    "description": "High-res workshop highlights and new releases",
+                    "link": "https://instagram.com/lavakoons_n_peebles",
+                    "tooltip": "Workshop backstage photos",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-youtube",
+                    "text": "YouTube",
+                    "description": "Project archives and community updates",
+                    "link": "https://youtube.com/@lavakoons_n_peebles",
+                    "tooltip": "Long-form guides",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-threads",
+                    "text": "Threads",
+                    "description": "Design discussions and news",
+                    "link": "https://threads.com/@lavakoons_n_peebles",
+                    "tooltip": "Discussions",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "categoryTitle": "📸 Gallery & Inspiration",
+            "links": [
+                {
+                    "icon": "fab fa-pinterest",
+                    "text": "Pinterest",
+                    "description": "Project catalogs and visual inspiration",
+                    "link": "https://pinterest.com/lavakoons_n_peebles",
+                    "tooltip": "Moodboards & renders",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "categoryTitle": "💬 Community & Support",
+            "links": [
+                {
+                    "icon": "fab fa-discord",
+                    "text": "Discord",
+                    "description": "Direct chat, support, and feedback",
+                    "link": "https://discord.gg/yCME6k5uTm",
+                    "tooltip": "Community server",
+                    "active": false
+                },
+                {
+                    "icon": "fab fa-telegram",
+                    "text": "Telegram",
+                    "description": "Products, quick announcements",
+                    "link": "https://t.me/lavakoons_n_peebles",
+                    "tooltip": "Quick updates",
+                    "active": true
+                }
+            ]
+        }
+    ]
+}

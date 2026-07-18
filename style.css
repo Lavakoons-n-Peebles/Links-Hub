@@ -1,0 +1,247 @@
+:root {
+    --bg-color: #06070b;
+    /* Dark cyber background for styling contrast */
+    --text-color: #ffffff;
+    --card-bg: #0d0e15;
+    --card-hover: #141724;
+    --accent-cyan: #00f0ff;
+    --accent-pink: #ff0055;
+    --accent-yellow: #f1ee0e;
+    --max-width: 960px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+/* Profile header styles */
+.profile-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 2px solid var(--accent-cyan);
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-yellow); /* Yellow focus to match the bear */
+}
+
+.profile-bio {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+
+
+
+/* Main adaptive grid: 1 column on mobile, 2 columns on desktop */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+/* Category group block styles */
+.group-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-title {
+    font-size: 0.85rem; 
+    font-weight: 600;   
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1.5px; 
+}
+
+/* Container for individual action buttons */
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* --- Cyberpunk UI Link Cards --- */
+.link-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--card-bg);
+    border-left: 3px solid var(--accent-cyan);
+    padding: 16px;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+    text-decoration: none;
+    color: var(--accent-cyan);
+    font-weight: 600;
+    position: relative;
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s, color 0.2s;
+}
+
+.link-item:hover {
+    background-color: var(--card-hover);
+    color: var(--accent-pink);
+    border-left-color: var(--accent-pink);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px var(--accent-cyan);
+}
+
+/* Hardcoded restriction for custom assets inside cyber-grid */
+.link-icon-container {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 0 4px currentColor);
+}
+
+.link-icon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.link-icon-fa {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Internal contents of a link button */
+.link-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link-text {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.link-description {
+    font-size: 0.75rem;
+    color: #ffffff;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+/* --- Optimized Top-Right Cyber Tooltip --- */
+.link-item::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 0px;
+    right: 12px;
+
+    background: rgba(255, 0, 85, 0.85);
+    /* Semi-transparent hot pink */
+    color: #ffffff;
+    padding: 2px 8px;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 6px 100%);
+    white-space: nowrap;
+
+    /* Holographic Zoom effect from center point for perfect readability */
+    opacity: 0;
+    transform: scale(0.7);
+    transform-origin: center center;
+    transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.link-item:hover::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* --- TODO / Coming Soon Matrix Styles --- */
+.link-item.is-todo {
+    border-left-color: var(--accent-yellow);
+    opacity: 0.85;
+}
+
+.link-item.is-todo:hover {
+    color: var(--accent-yellow);
+    box-shadow: 4px 4px 0px var(--accent-yellow);
+}
+
+/* Diagonal Cyber Warning Badge in Top-Left */
+.todo-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--accent-yellow);
+    color: #000000;
+    font-size: 0.55rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 2px 8px 2px 6px;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.link-item.is-todo .link-content {
+    padding-top: 4px;
+}
+
+@media (max-width: 767px) {
+    .link-item::after {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+        top: 2px !important; 
+        right: 15px !important;
+
+        background: rgba(20, 23, 36, 0.6) !important; /* Muted semi-transparent dark tint */
+        color: rgba(255, 255, 255, 0.5) !important;  /* Dimmed text color */
+        border: 1px solid rgba(0, 240, 255, 0.2) !important; /* Very subtle tech-border outline */
+        box-shadow: none !important;        
+    }
+}
+
+/* Desktop responsive breakpoint (2 columns) */
+@media (min-width: 768px) {
+    .content-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
