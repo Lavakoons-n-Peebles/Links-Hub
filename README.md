@@ -1,6 +1,6 @@
 # Lavakoons & Pebbles — Links Hub
 
-[🔗 Live Demo](https://lavakoons-n-peebles.github.io/Links-Hub/)
+[🔗 Welcome to the «Lavakoons & Peebles» digital workshop. 🛠✨](https://lavakoons-n-peebles.github.io/Links-Hub/)
 
 A minimalist, open-source link-in-bio page for the **Lavakoons & Pebbles** brand. Developed as a lightweight alternative to commercial multi-link services, it aggregates official resources and work tools into a single, publicly accessible interface.
 
