@@ -85,11 +85,11 @@
         },
         {
             "categoryTitle": "Poland",
-            "image": "paland.png",
+            "icon": "/img/icons/poland.png",
             "links": [
                 {
-                    "icon": "fas fa-shopping-bag",
-                    "image": "icons/olx.png",
+                    "fa_icon": "fas fa-shopping-bag",
+                    "icon": "/img/icons/olx.png",
                     "text": "OLX",
                     "description": "Local 3D printed & handcrafted items",
                     "link": "https://www.olx.pl/oferty/uzytkownik/19LrKz/",
@@ -97,8 +97,8 @@
                     "active": true
                 },
                 {
-                    "icon": "fas fa-store",
-                    "image": "icons/allegro.png",
+                    "fa_icon": "fas fa-store",
+                    "icon": "/img/icons/allegrolokalnie.png",
                     "text": "Allegro Lokalnie",
                     "description": "Store items and local listings",
                     "link": "https://allegrolokalnie.pl/uzytkownik/Client%3A103274120",
