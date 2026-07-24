@@ -80,7 +80,15 @@
                     "link": "https://youtube.com/@lavakoons_n_peebles",
                     "tooltip": "Long-form guides",
                     "active": true
-                }
+                },
+                {
+                    "icon": "fab fa-threads",
+                    "text": "Threads",
+                    "description": "Design discussions and news",
+                    "link": "https://threads.com/@lavakoons_n_peebles",
+                    "tooltip": "Discussions",
+                    "active": false
+                }                
             ]
         },
         {
