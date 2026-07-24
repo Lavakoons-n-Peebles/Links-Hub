@@ -106,3 +106,14 @@ async function loadConfig() {
 document.addEventListener('DOMContentLoaded', () => {
     loadConfig();
 });
+
+
+// ,
+//                 {
+//                     "icon": "fab fa-threads",
+//                     "text": "Threads",
+//                     "description": "Design discussions and news",
+//                     "link": "https://threads.com/@lavakoons_n_peebles",
+//                     "tooltip": "Discussions",
+//                     "active": false
+//                 }

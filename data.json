@@ -2,27 +2,34 @@
     "meta": {
         "title": "Lavakoons & Peebles | Links Hub & Portfolio",
         "description": "Explore 3D models, 3D prints, tufting, custom scripts, tools and daily workshop updates.",
-        "keywords": "3D printing, GitHub tools, makerworld, scripts, open source, Blender, Fusion 360, CAD, 3D models, STL files, 3D printing profiles, Patreon, TikTok, Instagram, YouTube, Pinterest, Discord, Telegram"
+        "keywords": "3D printing, GitHub tools, makerworld, scripts, open source, Blender, Fusion 360, CAD, 3D models, STL files, Patreon, TikTok, Instagram, YouTube, Pinterest, Discord, Telegram, OLX, Allegro"
     },
     "profile": {
         "name": "Lavakoons & Peebles",
         "avatar": "img/avatar.png",
-        "bio": "Custom 3D Printing & Tufting Studio • Custom Tools & Commercial Production"
+        "bio": "Custom 3D Printing & Tufting Studio • Custom Tools & Commercial Production",
+        "headerContacts": [
+            {
+                "icon": "fab fa-telegram",
+                "text": "Telegram",
+                "link": "https://t.me/lavakoons_n_peebles",
+                "tooltip": "Direct message"
+            },
+            {
+                "icon": "fas fa-envelope",
+                "text": "Email",
+                "link": "mailto:contact@lavakoons.com",
+                "tooltip": "Business inquiries"
+            }
+        ]
     },
     "categories": [
         {
-            "categoryTitle": "💎 Commercial Licenses / Files / Tools",
+            "categoryTitle": "💎 Commercial & Code",
             "links": [
                 {
-                    "icon": "fab fa-patreon",
-                    "text": "Patreon",
-                    "description": "Exclusive commercial rights & early access",
-                    "link": "https://patreon.com/lavakoons_n_peebles",
-                    "tooltip": "Support & exclusives",
-                    "active": false
-                },
-                {
-                    "icon": "https://cdn-icons-png.flaticon.com/512/583/583279.png",
+                    "icon": "fas fa-cube",
+                    "image": "icons/makerworld.png",
                     "text": "MakerWorld",
                     "description": "Download our 3D models and print profiles",
                     "link": "https://makerworld.com/en/@LnP.team",
@@ -36,11 +43,19 @@
                     "link": "https://github.com/Lavakoons-n-Peebles/",
                     "tooltip": "Code & repositories",
                     "active": true
+                },
+                {
+                    "icon": "fab fa-patreon",
+                    "text": "Patreon",
+                    "description": "Exclusive commercial rights & early access",
+                    "link": "https://patreon.com/lavakoons_n_peebles",
+                    "tooltip": "Support & exclusives",
+                    "active": false
                 }
             ]
         },
         {
-            "categoryTitle": "🎬 Process & Updates",
+            "categoryTitle": "🎬 Media & Updates",
             "links": [
                 {
                     "icon": "fab fa-tiktok",
@@ -65,26 +80,29 @@
                     "link": "https://youtube.com/@lavakoons_n_peebles",
                     "tooltip": "Long-form guides",
                     "active": true
-                },
-                {
-                    "icon": "fab fa-threads",
-                    "text": "Threads",
-                    "description": "Design discussions and news",
-                    "link": "https://threads.com/@lavakoons_n_peebles",
-                    "tooltip": "Discussions",
-                    "active": false
                 }
             ]
         },
         {
-            "categoryTitle": "📸 Gallery & Inspiration",
+            "categoryTitle": "Poland",
+            "image": "paland.png",
             "links": [
                 {
-                    "icon": "fab fa-pinterest",
-                    "text": "Pinterest",
-                    "description": "Project catalogs and visual inspiration",
-                    "link": "https://pinterest.com/lavakoons_n_peebles",
-                    "tooltip": "Moodboards & renders",
+                    "icon": "fas fa-shopping-bag",
+                    "image": "icons/olx.png",
+                    "text": "OLX",
+                    "description": "Local 3D printed & handcrafted items",
+                    "link": "https://www.olx.pl/oferty/uzytkownik/19LrKz/",
+                    "tooltip": "Buy directly on OLX (Poland only)",
+                    "active": true
+                },
+                {
+                    "icon": "fas fa-store",
+                    "image": "icons/allegro.png",
+                    "text": "Allegro Lokalnie",
+                    "description": "Store items and local listings",
+                    "link": "https://allegrolokalnie.pl/uzytkownik/Client%3A103274120",
+                    "tooltip": "Allegro shop profile (Poland only)",
                     "active": true
                 }
             ]
@@ -102,10 +120,24 @@
                 },
                 {
                     "icon": "fab fa-telegram",
-                    "text": "Telegram",
-                    "description": "Products, quick announcements",
-                    "link": "https://t.me/lavakoons_n_peebles",
-                    "tooltip": "Quick updates",
+                    "image": "icons/telegram.png",
+                    "text": "Telegram & Chatroom",
+                    "description": "Products, announcements, and quick workshop updates",
+                    "link": "https://t.me/Lavakoons_n_Peebles",
+                    "tooltip": "Join our Telegram channel",
+                    "active": true
+                }
+            ]
+        },        
+        {
+            "categoryTitle": "Gallery & Inspiration",
+            "links": [
+                {
+                    "icon": "fab fa-pinterest",
+                    "text": "Pinterest",
+                    "description": "Project catalogs and visual inspiration",
+                    "link": "https://pinterest.com/lavakoons_n_peebles",
+                    "tooltip": "Moodboards & renders",
                     "active": true
                 }
             ]
