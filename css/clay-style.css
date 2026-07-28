@@ -236,6 +236,7 @@ body {
 .link-icon-container {
   color: #F7F5FB !important; /* Off-white tint matching page background */
   filter: drop-shadow(0 2px 4px rgba(46, 42, 63, 0.35)) !important;  
+  opacity: .8;
 }
 
 /* Status Badges (Coming Soon) */
@@ -281,7 +282,7 @@ body {
     right: 20px !important;
     width: 90px !important;
     height: 90px !important;
-    background: url('/img/clay-bee.png') no-repeat center / contain !important;
+    background: url('../img/clay-bee.png') no-repeat center / contain !important;
     pointer-events: none !important; /* Non-blocking for clicks */
     z-index: 2 !important;
   }
