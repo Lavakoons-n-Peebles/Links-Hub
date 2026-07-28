@@ -63,7 +63,7 @@ function renderDashboard(data) {
             const targetBlank = hasValidLink ? 'target="_blank" rel="noopener noreferrer"' : '';
 
             return `
-                <a href="${targetLink}" class="link-item ${todoClass}" ${targetBlank} data-tooltip="${link.tooltip}">
+                <a href="${targetLink}" class="link-item is-${group.class} ${todoClass}" ${targetBlank} data-tooltip="${link.tooltip}">
                     ${todoBadge}
                     <div class="link-icon-container ${link.active ? `neon-light` : `light-off`}">
                         ${getIconHtml(link.icon)}

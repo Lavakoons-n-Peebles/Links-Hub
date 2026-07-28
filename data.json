@@ -25,37 +25,8 @@
     },
     "categories": [
         {
-            "categoryTitle": "💎 Commercial & Code",
-            "links": [
-                {
-                    "icon": "fas fa-cube",
-                    "image": "icons/makerworld.png",
-                    "text": "MakerWorld",
-                    "description": "Download our 3D models and print profiles",
-                    "link": "https://makerworld.com/en/@LnP.team",
-                    "tooltip": "Print profiles & 3D models",
-                    "active": true
-                },
-                {
-                    "icon": "fab fa-github",
-                    "text": "Github",
-                    "description": "Our scripts and tools",
-                    "link": "https://github.com/Lavakoons-n-Peebles/",
-                    "tooltip": "Code & repositories",
-                    "active": true
-                },
-                {
-                    "icon": "fab fa-patreon",
-                    "text": "Patreon",
-                    "description": "Exclusive commercial rights & early access",
-                    "link": "https://patreon.com/lavakoons_n_peebles",
-                    "tooltip": "Support & exclusives",
-                    "active": false
-                }
-            ]
-        },
-        {
             "categoryTitle": "🎬 Media & Updates",
+            "class": "rose",
             "links": [
                 {
                     "icon": "fab fa-tiktok",
@@ -92,7 +63,39 @@
             ]
         },
         {
+            "categoryTitle": "💎 Commercial & Code",
+            "class": "mint",
+            "links": [
+                {
+                    "icon": "fas fa-cube",
+                    "image": "icons/makerworld.png",
+                    "text": "MakerWorld",
+                    "description": "Download our 3D models and print profiles",
+                    "link": "https://makerworld.com/en/@LnP.team",
+                    "tooltip": "Print profiles & 3D models",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-github",
+                    "text": "Github",
+                    "description": "Our scripts and tools",
+                    "link": "https://github.com/Lavakoons-n-Peebles/",
+                    "tooltip": "Code & repositories",
+                    "active": true
+                },
+                {
+                    "icon": "fab fa-patreon",
+                    "text": "Patreon",
+                    "description": "Exclusive commercial rights & early access",
+                    "link": "https://patreon.com/lavakoons_n_peebles",
+                    "tooltip": "Support & exclusives",
+                    "active": false
+                }
+            ]
+        },
+        {
             "categoryTitle": "Poland",
+            "class": "lavender",
             "icon": "img/icons/poland.png",
             "links": [
                 {
@@ -117,6 +120,7 @@
         },
         {
             "categoryTitle": "💬 Community & Support",
+            "class": "sky",
             "links": [
                 {
                     "icon": "fab fa-discord",
@@ -139,6 +143,7 @@
         },        
         {
             "categoryTitle": "Gallery & Inspiration",
+            "class": "peach",
             "links": [
                 {
                     "icon": "fab fa-pinterest",
