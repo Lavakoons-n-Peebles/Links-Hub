@@ -3,7 +3,7 @@
 /* Root tokens mapped to your guide */
 :root {
   --bg-app: #F7F5FB;
-  --r-card: 28px;
+  --r-card: 33px;
 
   --surface-lavender: #B8A6FF;  /* primary cards, hero blocks */
   --surface-sky:      #9EC9F0;  /* info, secondary cards */
@@ -148,11 +148,10 @@ body {
 /* Avatar with soft 3D clay frame */
 .profile-avatar {
   display: block !important;
+  width: 120px;
+  height: 120px;
   margin: 0 auto 16px auto !important;
-  
-  /* Retain clay frame */
-  border: 3px solid #2E2A3F !important;
-  border-radius: 28px !important;
+  border: 3px solid #2e2a3f75 !important;
   box-shadow: 
     4px 6px 16px rgba(209, 176, 69, 0.35),
     inset 2px 2px 4px rgba(255, 255, 255, 0.6) !important;
