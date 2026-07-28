@@ -33,7 +33,7 @@ function renderHeader(profileData) {
     const headerElement = document.getElementById('profile-header');
     headerElement.innerHTML = `
         <img class="profile-avatar" src="${profileData.avatar}" alt="${profileData.name}">
-        <h1 class="profile-name">${profileData.name}</h1>
+        <h1 class="profile-name clay-text clay-btn brend-neon-light">${profileData.name}</h1>
         <p class="profile-bio">${profileData.bio}</p>
     `;
 }
@@ -65,7 +65,7 @@ function renderDashboard(data) {
             return `
                 <a href="${targetLink}" class="link-item ${todoClass}" ${targetBlank} data-tooltip="${link.tooltip}">
                     ${todoBadge}
-                    <div class="link-icon-container">
+                    <div class="link-icon-container ${link.active ? `neon-light` : `light-off`}">
                         ${getIconHtml(link.icon)}
                     </div>
                     <div class="link-content">
