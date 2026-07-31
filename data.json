@@ -18,7 +18,7 @@
             {
                 "icon": "fas fa-envelope",
                 "text": "Email",
-                "link": "mailto:contact@lavakoons.com",
+                "link": "mailto:contact@lavakoons-n-peebles.com",
                 "tooltip": "Business inquiries"
             }
         ]
@@ -59,22 +59,64 @@
                     "link": "https://threads.com/@lavakoons_n_peebles",
                     "tooltip": "Discussions",
                     "active": false
-                }                
+                }
             ]
         },
         {
-            "categoryTitle": "💎 Commercial & Code",
+            "categoryTitle": "💎 3D models",
             "class": "mint",
             "links": [
                 {
-                    "icon": "fas fa-cube",
-                    "image": "icons/makerworld.png",
+                    "icon_default": "fas fa-cube",
+                    "icon": "img/icons/maker-world.svg",
                     "text": "MakerWorld",
                     "description": "Download our 3D models and print profiles",
-                    "link": "https://makerworld.com/en/@LnP.team",
+                    "link": "https://makerworld.com/en/@Lavakoons",
                     "tooltip": "Print profiles & 3D models",
                     "active": true
                 },
+                {
+                    "icon_default": "fas fa-cube",
+                    "icon": "img/icons/printables.svg",
+                    "text": "Printables",
+                    "description": "Download 3D models and STL files",
+                    "link": "https://www.printables.com/@lavakoons_2267901",
+                    "tooltip": "3D models & STL files on Printables",
+                    "active": false
+                },
+                {
+                    "icon_default": "fas fa-cube",
+                    "icon": "img/icons/thingiverse.svg",
+                    "text": "Thingiverse",
+                    "description": "Free 3D printing models and designs",
+                    "link": "https://www.thingiverse.com/lavakoons-n-peebles",
+                    "tooltip": "3D models on Thingiverse",
+                    "active": false
+                },
+                {
+                    "icon_default": "fas fa-cube",
+                    "icon": "img/icons/cults3d.svg",
+                    "text": "Cults3D",
+                    "description": "3D models, STL files, and exclusive designs",
+                    "link": "https://cults3d.com/@Lavakoons_n_Peebles",
+                    "tooltip": "3D models on Cults3D",
+                    "active": false
+                },
+                {
+                    "icon_default": "fas fa-cube",
+                    "icon": "img/icons/mmf.svg",
+                    "text": "MyMiniFactory",
+                    "description": "3D printable models and studio designs",
+                    "link": "https://www.myminifactory.com/users/Lavakoons-n-Peebles",
+                    "tooltip": "3D models on MyMiniFactory",
+                    "active": false
+                }
+            ]
+        },
+         {
+            "categoryTitle": "💎 Commercial & Code",
+            "class": "peach",
+            "links": [
                 {
                     "icon": "fab fa-github",
                     "text": "Github",
@@ -93,13 +135,13 @@
                 }
             ]
         },
-        {
+       {
             "categoryTitle": "Poland",
-            "class": "lavender",
+            "class": "lilac",
             "icon": "img/icons/poland.png",
             "links": [
                 {
-                    "fa_icon": "fas fa-shopping-bag",
+                    "icon_default": "fas fa-shopping-bag",
                     "icon": "img/icons/olx.png",
                     "text": "OLX",
                     "description": "Local 3D printed & handcrafted items",
@@ -108,7 +150,7 @@
                     "active": true
                 },
                 {
-                    "fa_icon": "fas fa-store",
+                    "icon_default": "fas fa-store",
                     "icon": "img/icons/allegrolokalnie.png",
                     "text": "Allegro Lokalnie",
                     "description": "Store items and local listings",
@@ -120,16 +162,8 @@
         },
         {
             "categoryTitle": "💬 Community & Support",
-            "class": "sky",
+            "class": "lime",
             "links": [
-                {
-                    "icon": "fab fa-discord",
-                    "text": "Discord",
-                    "description": "Direct chat, support, and feedback",
-                    "link": "https://discord.gg/yCME6k5uTm",
-                    "tooltip": "Community server",
-                    "active": false
-                },
                 {
                     "icon": "fab fa-telegram",
                     "image": "icons/telegram.png",
@@ -138,12 +172,20 @@
                     "link": "https://t.me/Lavakoons_n_Peebles",
                     "tooltip": "Join our Telegram channel",
                     "active": true
+                },
+                {
+                    "icon": "fab fa-discord",
+                    "text": "Discord",
+                    "description": "Direct chat, support, and feedback",
+                    "link": "https://discord.gg/yCME6k5uTm",
+                    "tooltip": "Community server",
+                    "active": false
                 }
             ]
-        },        
+        },
         {
             "categoryTitle": "Gallery & Inspiration",
-            "class": "peach",
+            "class": "periwinkle",
             "links": [
                 {
                     "icon": "fab fa-pinterest",

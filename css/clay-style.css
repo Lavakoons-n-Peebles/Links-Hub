@@ -22,14 +22,20 @@
   --text-muted: #6B6580;
 
   /* Card Surface Fill Colors */
-  --card-lavender: #C8B6FF; /* Total Revenue */
-  --card-mint:     #80E3B7; /* MRR */
-  --card-peach:    #FFCFB3; /* Growth */
-  --card-sky:      #9EE2FF; /* New Customers */
-  --card-coral:    #FF8A7A; /* Churn */
-  --card-lemon:    #FFF099; /* ARPU */
-  --card-rose:     #FFB3D9; /* Additional vibrant accent */
-  --card-teal:     #7DE8E3; /* Additional fresh accent */
+  --card-lavender: #C8B6FF; 
+  --card-mint:     #80E3B7; 
+  --card-peach:    #FFCFB3; 
+  --card-sky:      #9EE2FF; 
+  --card-coral:    #FF8A7A; 
+  --card-lemon:    #FFF099; 
+  --card-rose:     #FFB3D9; 
+  --card-teal:     #7DE8E3; 
+  --card-pink:     #FF75C3; 
+  --card-yellow:   #FFD13B; 
+  --card-periwinkle: #A3B8FF;
+  --card-apricot:    #FFB580;
+  --card-lime:       #BBEA70;
+  --card-lilac:      #E2A9F3;
 
   /* Hue-Matched Drop Shadows (Bottom-Right Glow) */
   --shadow-lavender: rgba(110, 80, 220, 0.35);
@@ -40,6 +46,12 @@
   --shadow-lemon:    rgba(210, 170, 30, 0.35);
   --shadow-rose:   rgba(230, 80, 160, 0.35);
   --shadow-teal:   rgba(30, 165, 160, 0.35);
+  --shadow-pink:     rgba(230, 40, 150, 0.35);
+  --shadow-yellow:   rgba(220, 150, 10, 0.35);
+  --shadow-periwinkle: rgba(70, 95, 230, 0.35);
+  --shadow-apricot:    rgba(235, 110, 50, 0.35);
+  --shadow-lime:       rgba(130, 190, 30, 0.35);
+  --shadow-lilac:      rgba(170, 70, 200, 0.35);  
 
   /* Inner Depth Inset Shadows (Bottom-Right Rim) */
   --inset-lavender:  rgba(90, 60, 190, 0.25);
@@ -50,6 +62,18 @@
   --inset-lemon:     rgba(180, 140, 20, 0.25);  
   --inset-rose:    rgba(190, 50, 130, 0.25);
   --inset-teal:    rgba(20, 130, 125, 0.25);
+  --inset-pink:      rgba(190, 20, 120, 0.25);
+  --inset-yellow:    rgba(180, 120, 0, 0.25); 
+  --inset-periwinkle:  rgba(50, 75, 200, 0.25);
+  --inset-apricot:     rgba(200, 85, 30, 0.25);
+  --inset-lime:        rgba(100, 160, 20, 0.25);
+  --inset-lilac:       rgba(140, 40, 170, 0.25);   
+
+  --card-disabled: #D8DCF0;           /* Холодный приглушённый серый */
+  --shadow-disabled: rgba(160, 165, 185, 0.25); /* Слабая тени */
+  --inset-disabled:  rgba(130, 135, 155, 0.2);  /* Едва заметная глубина */
+  --text-disabled:   #8C92A4;           /* Блёклый серый текст */
+
 }
 
 /* Standalone color modifiers (usable on any element) */
@@ -99,6 +123,42 @@
   --card-bg: var(--card-teal);
   --card-shadow: var(--shadow-teal);
   --card-inset: var(--inset-teal);
+}
+
+.is-pink {
+  --card-bg: var(--card-pink);
+  --card-shadow: var(--shadow-pink);
+  --card-inset: var(--inset-pink);
+}
+
+.is-yellow {
+  --card-bg: var(--card-yellow);
+  --card-shadow: var(--shadow-yellow);
+  --card-inset: var(--inset-yellow);
+}
+
+.is-periwinkle {
+  --card-bg: var(--card-periwinkle);
+  --card-shadow: var(--shadow-periwinkle);
+  --card-inset: var(--inset-periwinkle);
+}
+
+.is-apricot {
+  --card-bg: var(--card-apricot);
+  --card-shadow: var(--shadow-apricot);
+  --card-inset: var(--inset-apricot);
+}
+
+.is-lime {
+  --card-bg: var(--card-lime);
+  --card-shadow: var(--shadow-lime);
+  --card-inset: var(--inset-lime);
+}
+
+.is-lilac {
+  --card-bg: var(--card-lilac);
+  --card-shadow: var(--shadow-lilac);
+  --card-inset: var(--inset-lilac);
 }
 
 /* Page Background & Typography */
@@ -237,6 +297,14 @@ body {
   filter: drop-shadow(0 2px 4px rgba(46, 42, 63, 0.35)) !important;  
   opacity: .8;
 }
+
+.link-item.is-todo {
+  color: var(--text-disabled) !important;
+  opacity: 0.75;
+  background-color: var(--card-disabled) !important;
+  /* transform: none !important; */
+}
+
 
 /* Status Badges (Coming Soon) */
 .todo-badge {
