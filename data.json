@@ -167,7 +167,7 @@
         },
         {
             "categoryTitle": "💬 Community & Support",
-            "class": "lime",
+            "class": "periwinkle",
             "links": [
                 {
                     "icon": "fab fa-telegram",
@@ -191,7 +191,7 @@
         },
         {
             "categoryTitle": "Gallery & Inspiration",
-            "class": "periwinkle",
+            "class": "yellow",
             "links": [
                 {
                     "icon": "fab fa-pinterest",
