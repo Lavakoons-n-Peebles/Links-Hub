@@ -109,7 +109,7 @@ body {
 }
 
 /* Header Section Card */
-.profile-section {
+.profile-avatar-container {
   background-color: #F5D77A !important;
   border-radius: 28px !important;
   padding: 32px 24px !important;
@@ -117,7 +117,7 @@ body {
     8px 8px 24px rgba(209, 176, 69, 0.4),
     -8px -8px 24px rgba(255, 255, 255, 0.8),
     inset 4px 4px 8px rgba(255, 255, 255, 0.6),
-    inset -6px -6px 12px rgba(209, 176, 69, 0.35) !important;
+    inset -6px -6px 12px rgba(209, 176, 69, 0.35) !important;    
 }
 
 /* Header Text */
@@ -154,7 +154,7 @@ body {
   border: 3px solid #2e2a3f75 !important;
   box-shadow: 
     4px 6px 16px rgba(209, 176, 69, 0.35),
-    inset 2px 2px 4px rgba(255, 255, 255, 0.6) !important;
+    inset 2px 2px 4px rgba(255, 255, 255, 0.6) !important;    
 }
 
 /* Category Titles */

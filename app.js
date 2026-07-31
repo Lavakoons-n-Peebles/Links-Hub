@@ -32,9 +32,11 @@ function applyMeta(metaData) {
 function renderHeader(profileData) {
     const headerElement = document.getElementById('profile-header');
     headerElement.innerHTML = `
-        <img class="profile-avatar" src="${profileData.avatar}" alt="${profileData.name}">
-        <h1 class="profile-name clay-text clay-btn brend-neon-light">${profileData.name}</h1>
-        <p class="profile-bio">${profileData.bio}</p>
+        <div class="profile-avatar-container">
+            <img class="profile-avatar" src="${profileData.avatar}" alt="${profileData.name}">
+            <h1 class="profile-name clay-text clay-btn brend-neon-light">${profileData.name}</h1>
+            <p class="profile-bio">${profileData.bio}</p>
+        </div>
     `;
 }
 
