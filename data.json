@@ -58,7 +58,8 @@
                     "description": "Design discussions and news",
                     "link": "https://threads.com/@lavakoons_n_peebles",
                     "tooltip": "Discussions",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 }
             ]
         },
@@ -82,7 +83,8 @@
                     "description": "Download 3D models and STL files",
                     "link": "https://www.printables.com/@lavakoons_2267901",
                     "tooltip": "3D models & STL files on Printables",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 },
                 {
                     "icon_default": "fas fa-cube",
@@ -91,7 +93,8 @@
                     "description": "Free 3D printing models and designs",
                     "link": "https://www.thingiverse.com/lavakoons-n-peebles",
                     "tooltip": "3D models on Thingiverse",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 },
                 {
                     "icon_default": "fas fa-cube",
@@ -100,7 +103,8 @@
                     "description": "3D models, STL files, and exclusive designs",
                     "link": "https://cults3d.com/@Lavakoons_n_Peebles",
                     "tooltip": "3D models on Cults3D",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 },
                 {
                     "icon_default": "fas fa-cube",
@@ -109,7 +113,8 @@
                     "description": "3D printable models and studio designs",
                     "link": "https://www.myminifactory.com/users/Lavakoons-n-Peebles",
                     "tooltip": "3D models on MyMiniFactory",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 }
             ]
         },
@@ -179,7 +184,8 @@
                     "description": "Direct chat, support, and feedback",
                     "link": "https://discord.gg/yCME6k5uTm",
                     "tooltip": "Community server",
-                    "active": false
+                    "active": false,
+                    "hidden":true
                 }
             ]
         },

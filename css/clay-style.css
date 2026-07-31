@@ -69,10 +69,10 @@
   --inset-lime:        rgba(100, 160, 20, 0.25);
   --inset-lilac:       rgba(140, 40, 170, 0.25);   
 
-  --card-disabled: #D8DCF0;           /* Холодный приглушённый серый */
-  --shadow-disabled: rgba(160, 165, 185, 0.25); /* Слабая тени */
-  --inset-disabled:  rgba(130, 135, 155, 0.2);  /* Едва заметная глубина */
-  --text-disabled:   #8C92A4;           /* Блёклый серый текст */
+  --card-disabled: #D8DCF0;
+  --shadow-disabled: rgba(160, 165, 185, 0.25);
+  --inset-disabled:  rgba(130, 135, 155, 0.2);
+  --text-disabled:   #8C92A4;
 
 }
 
@@ -302,7 +302,9 @@ body {
   color: var(--text-disabled) !important;
   opacity: 0.75;
   background-color: var(--card-disabled) !important;
-  /* transform: none !important; */
+  --card-shadow: var(--shadow-disabled);
+  --card-inset: var(--inset-disabled);
+
 }
 
 
